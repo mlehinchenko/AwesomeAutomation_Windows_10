@@ -1,1 +1,1 @@
-Please enter here command neededs for Mac os setup to start Automation
+Please enter here command neededs for Windows 10 setup to start Automation
