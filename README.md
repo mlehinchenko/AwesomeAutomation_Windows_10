@@ -9,10 +9,9 @@ Set-ExecutionPolicy RemoteSigned -Force
 ```
 
 # Install scoop
+Make sure Powershell 3 (or later) and .NET Framework 4.5 (or later) are installed. Then run:
 ```
-Get-PackageProvider -Name chocolatey -Force
-Set-PackageSource -Name chocolatey -trusted -Force
-Set-ExecutionPolicy RemoteSigned -Force
+iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 ```
 
 
