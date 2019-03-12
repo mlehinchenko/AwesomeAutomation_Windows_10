@@ -62,5 +62,6 @@ install-package -name eclipse -Force
 ```
 install-package -name selenium-gecko-driver -Force
 install-package -name chromedriver -Force
+scoop install windows-application-driver
 ```
 
