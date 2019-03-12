@@ -6,6 +6,7 @@ start Powershell ISE as administrator copy the commands below and press start bu
 Get-PackageProvider -Name chocolatey -Force
 Set-PackageSource -Name chocolatey -trusted -Force
 Set-ExecutionPolicy RemoteSigned -Force
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
 
 # Install scoop
