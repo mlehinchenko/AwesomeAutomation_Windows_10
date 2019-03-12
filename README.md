@@ -1,7 +1,7 @@
 Please enter here command neededs for Windows 10 setup to start Automation
 start Powershell ISE as administrator copy the commands below and press start button for now java, maven and rest of application are installed in default path and do not write nothing to PATH variables for maven. For future I planned to fix it.
 
-# Scoop and Chocolatey are pretty the same. 8-)
+# Scoop and Chocolatey are pretty the same.
 
 
 ## Install chocolatey
