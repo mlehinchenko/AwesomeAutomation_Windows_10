@@ -15,6 +15,13 @@ Set-PackageSource -Name chocolatey -trusted -Force
 Set-ExecutionPolicy RemoteSigned -Force
 ```
 
+
+# Git
+```
+install-package -name git -Force
+```
+
+
 # Browsers
 ```
 install-package -name GoogleChrome -Force
@@ -49,11 +56,6 @@ install-package -name maven -Force
 install-package -name eclipse -Force
 ```
 
-
-# Git
-```
-install-package -name git -Force
-```
 
 
 # Automation Drivers
