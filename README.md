@@ -3,7 +3,6 @@ start Powershell ISE as administrator copy the commands below and press start bu
 
 # Scoop and Chocolatey are pretty the same.
 
-
 ## Install chocolatey
 ```
 Get-PackageProvider -Name chocolatey -Force
@@ -17,7 +16,11 @@ Make sure Powershell 3 (or later) and .NET Framework 4.5 (or later) are installe
 ```
 iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 ```
-
+### You can find any package by using:
+```
+scoop search 'packagename'     ---for scoop
+Find-Package 'packagename'     ---for chocolatey
+```
 
 ## Git
 ```
@@ -57,6 +60,7 @@ install-package -name maven -Force
 ## IDE
 ```
 install-package -name eclipse -Force
+scoop install extras/idea
 ```
 
 
