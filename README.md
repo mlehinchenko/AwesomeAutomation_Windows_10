@@ -14,6 +14,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 ## Install scoop
 Make sure Powershell 3 (or later) and .NET Framework 4.5 (or later) are installed. Then run:
 ```
+Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 ```
 ### You can find any package by using:
